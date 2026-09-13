@@ -1,23 +1,27 @@
-<div align="center">
+<div align="center" id="top">
 
-# 📈 StockSphere
+# 📈 STOCKSPHERE
 
-### Market Intelligence Dashboard
+<img src="https://img.shields.io/badge/-%F0%9F%93%88%20MARKET%20INTELLIGENCE%20DASHBOARD%20%F0%9F%93%88-0e1117?style=flat-square&labelColor=0e1117&color=00d4ff" alt="Market Intelligence Dashboard"/>
 
-A sleek, dark-themed stock market intelligence web app — live quotes, candlestick charts, technical analysis, and news, built entirely with **free data sources** (no paid API required).
-
-<br/>
-
-[![Live Demo](https://img.shields.io/badge/🌐_LIVE_DEMO-Launch_App-00d4ff?style=for-the-badge)](https://stock-sphere-ipdbyuaaiwt9wabxeqepc9.streamlit.app/)
+### A sleek, dark-themed stock market intelligence web app — live quotes, candlestick charts, technical analysis, and news
 
 <br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-00d4ff?style=flat-square)
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/status-active-2ea44f?style=flat-square" alt="status"/>
+  <img src="https://img.shields.io/badge/license-MIT-00d4ff?style=flat-square" alt="license"/>
+  <img src="https://img.shields.io/badge/data-free%20sources-00d4ff?style=flat-square" alt="free data sources"/>
+  <img src="https://img.shields.io/badge/API%20cost-%240-2ea44f?style=flat-square" alt="zero API cost"/>
+  <img src="https://img.shields.io/badge/PRs-welcome-00d4ff?style=flat-square" alt="PRs welcome"/>
+</p>
 
 </div>
 
@@ -25,29 +29,20 @@ A sleek, dark-themed stock market intelligence web app — live quotes, candlest
 
 ## 📖 Table of Contents
 
-- [Overview](#-overview)
-- [Live Demo](#-live-demo)
-- [Features](#-features)
-- [Tech Stack](#️-tech-stack)
-- [Installation](#-installation)
-- [Configuration](#️-configuration)
-- [Project Structure](#-project-structure)
-- [Deployment](#️-deployment)
-- [Roadmap](#️-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
+| | | |
+|---|---|---|
+| [🎯 Overview](#-overview) | [🚀 Features](#-features) | [🛠️ Tech Stack](#️-tech-stack) |
+| [📦 Installation](#-installation) | [⚙️ Configuration](#️-configuration) | [📁 Project Structure](#-project-structure) |
+| [☁️ Deployment](#️-deployment) | [🗺️ Roadmap](#️-roadmap) | [🤝 Contributing](#-contributing) |
+| [❓ FAQ](#-faq) | [📄 License](#-license) | [👤 Credits & Contact](#-credits--contact) |
 
-<br/>
-
-## 🎯 Overview
-
-**StockSphere** brings together everything you need to track the market in one clean interface — live index tickers, candlestick price action, technical indicators, watchlist comparisons, company financials, and curated news. Built entirely on free data sources, it's a fully functional market dashboard with zero API costs.
+### 🌐 Live Demo
 
 <div align="center">
 
-| 📡 Live Data | 📊 Candlestick Charts | 🔍 Watchlist Compare | 📰 News Feed |
-|:---:|:---:|:---:|:---:|
-| Real-time index & stock quotes | Interactive OHLCV visualization | Normalized performance tracking | Curated financial headlines |
+[![🌐 Launch StockSphere](https://img.shields.io/badge/🌐_LAUNCH_STOCKSPHERE-00d4ff?style=for-the-badge&labelColor=0e1117)](https://stock-sphere-ipdbyuaaiwt9wabxeqepc9.streamlit.app/)
+
+<sub>Runs live in your browser · No installation required</sub>
 
 </div>
 
@@ -55,13 +50,15 @@ A sleek, dark-themed stock market intelligence web app — live quotes, candlest
 
 ---
 
-## 🌐 Live Demo
+## 🎯 Overview
+
+**StockSphere** brings together everything you need to track the market in one clean interface — live index tickers, candlestick price action, technical indicators, watchlist comparisons, company financials, and curated news. Built entirely on free data sources, it's a fully functional market dashboard with zero API costs.
 
 <div align="center">
 
-### 👉 [**Launch StockSphere**](https://stock-sphere-ipdbyuaaiwt9wabxeqepc9.streamlit.app/)
-
-*Runs live in your browser — no installation required.*
+| 📡 | 📊 | 🔍 | 📰 |
+|:---:|:---:|:---:|:---:|
+| **Live Data**<br/>Real-time index & stock quotes | **Candlestick Charts**<br/>Interactive OHLCV visualization | **Watchlist Compare**<br/>Normalized performance tracking | **News Feed**<br/>Curated financial headlines |
 
 </div>
 
@@ -71,28 +68,32 @@ A sleek, dark-themed stock market intelligence web app — live quotes, candlest
 
 ## 🚀 Features
 
-<table>
+<table width="100%">
 <tr>
-<td valign="top" width="50%">
+<th align="left" width="50%">📊 Market Data & Charts</th>
+<th align="left" width="50%">🔍 Insights & Design</th>
+</tr>
+<tr>
+<td valign="top">
 
-### 📊 Market Data
+**Market Data**
 - **Live Ticker Banner** — scrolling pulse for S&P 500, Dow Jones, NASDAQ, Gold, and FTSE 100
 - **Stock Search** — look up any ticker and instantly load detailed data
 - **Watchlist** — add/remove multiple stocks (AAPL, TSLA, NVDA...) with persistent session state
 
-### 📈 Charts & Analysis
+**Charts & Analysis**
 - **Candlestick Chart** — interactive OHLCV chart with green/red candles
 - **Technical Analysis** — RSI indicator with overbought/oversold threshold lines
 
 </td>
-<td valign="top" width="50%">
+<td valign="top">
 
-### 🔍 Insights
+**Insights**
 - **Compare Tab** — normalized relative performance across your watchlist, indexed to 100
 - **Financials Tab** — revenue, profit margin, and beta metric cards plus a full company summary
 - **News Feed** — latest headlines with source attribution (Barron's, CNBC, Yahoo Finance, and more)
 
-### 🎨 Design
+**Design**
 - Sleek, professional dark theme throughout
 - Responsive, distraction-free layout
 
@@ -106,13 +107,19 @@ A sleek, dark-themed stock market intelligence web app — live quotes, candlest
 
 ## 🛠️ Tech Stack
 
+<div align="center">
+
 | Tool | Purpose |
-|---|---|
-| **Python** | Core language |
-| **Streamlit** | Web UI framework |
-| **Plotly** | Interactive charts (candlestick, line, indicators) |
-| **Pandas** | Data manipulation |
-| **yfinance** | Free stock market data source |
+|:---:|---|
+| 🐍 **Python** | Core language |
+| 🎈 **Streamlit** | Web UI framework |
+| 📊 **Plotly** | Interactive charts (candlestick, line, indicators) |
+| 🐼 **Pandas** | Data manipulation |
+| 📡 **yfinance** | Free stock market data source |
+
+</div>
+
+> Built entirely on free data sources — no paid API required.
 
 <br/>
 
@@ -120,32 +127,38 @@ A sleek, dark-themed stock market intelligence web app — live quotes, candlest
 
 ## 📦 Installation
 
-**1. Clone the repository**
+<table>
+<tr><td>
+
+**1️⃣ Clone the repository**
 ```bash
 git clone https://github.com/yourusername/stocksphere.git
 cd stocksphere
 ```
 
-**2. Create a virtual environment**
+**2️⃣ Create a virtual environment**
 ```bash
 python -m venv venv
 source venv/bin/activate        # Mac/Linux
 venv\Scripts\activate           # Windows
 ```
 
-**3. Install dependencies**
+**3️⃣ Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Run the app**
+**4️⃣ Run the app**
 ```bash
 streamlit run app.py
 ```
 
 The app will open at `http://localhost:8501` 🎉
 
-### Requirements
+</td></tr>
+</table>
+
+**Requirements**
 ```
 streamlit
 pandas
@@ -178,12 +191,22 @@ primaryColor = "#00d4ff"
 
 ```bash
 stocksphere/
-├── app.py                  # Main Streamlit application
-├── requirements.txt        # Python dependencies
+├── app.py                  # 🎯 Main Streamlit application
+├── requirements.txt        # 📦 Python dependencies
 ├── .streamlit/
-│   └── config.toml         # Dark theme configuration
-└── README.md
+│   └── config.toml         # 🎨 Dark theme configuration
+└── README.md                # 📖 Project overview
 ```
+
+<div align="center">
+
+| File | Responsibility |
+|---|---|
+| `app.py` | Application logic — data fetching, charts, tabs, UI |
+| `requirements.txt` | Declares all Python package dependencies |
+| `.streamlit/config.toml` | Controls theme colors and base styling |
+
+</div>
 
 <br/>
 
@@ -193,10 +216,10 @@ stocksphere/
 
 **Deploy on Streamlit Community Cloud (Free):**
 
-1. Push your code to a public GitHub repository
-2. Go to [streamlit.io/cloud](https://streamlit.io/cloud) and sign in with GitHub
-3. Click **New app** → select your repo and `app.py`
-4. Click **Deploy** — your app will be live in minutes! 🚀
+1. 🚀 Push your code to a public GitHub repository
+2. 🌐 Go to [streamlit.io/cloud](https://streamlit.io/cloud) and sign in with GitHub
+3. ➕ Click **New app** → select your repo and `app.py`
+4. ✅ Click **Deploy** — your app will be live in minutes!
 
 <br/>
 
@@ -204,11 +227,13 @@ stocksphere/
 
 ## 🗺️ Roadmap
 
-- [ ] Portfolio tracking with P&L calculations
-- [ ] Additional technical indicators (MACD, Bollinger Bands, moving averages)
-- [ ] Price alerts and notifications
-- [ ] Export charts and reports
-- [ ] Multi-currency support
+| Status | Feature |
+|:---:|---|
+| ⏳ | Portfolio tracking with P&L calculations |
+| ⏳ | Additional technical indicators (MACD, Bollinger Bands, moving averages) |
+| ⏳ | Price alerts and notifications |
+| ⏳ | Export charts and reports |
+| ⏳ | Multi-currency support |
 
 <br/>
 
@@ -218,11 +243,35 @@ stocksphere/
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a pull request
+<table>
+<tr><td>
+
+1. 🍴 Fork the project
+2. 🌱 Create your feature branch — `git checkout -b feature/amazing-feature`
+3. 💾 Commit your changes — `git commit -m 'Add some amazing feature'`
+4. 🚀 Push to the branch — `git push origin feature/amazing-feature`
+5. 🔁 Open a pull request
+
+</td></tr>
+</table>
+
+<br/>
+
+---
+
+## ❓ FAQ
+
+**Do I need a paid API key to run this?**
+No — StockSphere runs entirely on free data sources (via yfinance), with zero API costs.
+
+**Can I track my own custom list of stocks?**
+Yes — use the Watchlist feature to add or remove tickers, with your selections persisted in session state.
+
+**Does it support portfolio tracking?**
+Not yet — portfolio tracking with P&L calculations is on the [roadmap](#️-roadmap).
+
+**Can I deploy this myself for free?**
+Yes — see the [Deployment](#️-deployment) section for deploying on Streamlit Community Cloud at no cost.
 
 <br/>
 
@@ -236,10 +285,20 @@ This project is open source. Feel free to use, modify, and share it with proper 
 
 ---
 
+## 👤 Credits & Contact
+
 <div align="center">
 
 ### 📈 Built with precision — StockSphere
 
 *Markets move fast. Now you can keep up.*
+
+Built with Python, Streamlit, Plotly, and Pandas · Powered by free market data via yfinance
+
+For bugs, feature requests, or questions, open an issue on the GitHub repository.
+
+<br/>
+
+**[⬆ Back to top](#top)**
 
 </div>
